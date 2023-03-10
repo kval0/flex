@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: antiquewhite;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div {
+    border: 2px solid black;
+    font-size: 60px;
+    width: 50px;
+    text-align: center;
+    line-height: 120px;
+    flex-grow: 1;
+    width: 30%;
+}
+
+#div3 {
+    flex-shrink: 2;
+}

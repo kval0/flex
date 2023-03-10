@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: red;
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+ul > li {
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    height: 80px;
+}
+
+ul > li:hover {
+    background-color: brown;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.hero {
+    width: 100vw;
+    height: 400px;
+    background-image: url(pexels-edward-eyer-1049626.jpg);
+    background-size: 1400px;
+    background-position: 30% 30%;
+}
+
+.textodestaque {
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+    text-shadow: 2px 10px 10px black;
+    text-align: center;
+}
+
+main {
+    width: 100vw;
+    margin: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linha {
+    width: 80vw;
+    height: 5px;
+    background-color: red;
+}
+
+main > h1 {
+    font-size: 40px;
+    color: darkgreen;
+}
+
+main > p {
+    font-size: 30px;
+}
+
+.cards img {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+}
+
+.cardinfo {
+    width: 300px;
+    height: 200px;
+    background-color: darkgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5px;
+}
